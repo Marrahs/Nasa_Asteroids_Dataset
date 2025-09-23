@@ -46,7 +46,7 @@ close to Earth's orbit, making them subjects of scientific interest and observat
    Answer:
      Yes, the following plot shows that the higher the number of Estimated diameter results in an asteroid being more hazardous.
    
-     ![Diameter_Distribution](Diameter_Distribution.png)
+     ![Diameter_Distribution](Distribution_of_Diameter.png)
      
            
 
