@@ -13,7 +13,7 @@ close to Earth's orbit, making them subjects of scientific interest and observat
 - Python
 - Jupyter Notebook
 
-## Key Steps
+## Methodology
 - Data collection and cleaning
 - exploratory data analysis
 - visualization creation
@@ -21,14 +21,33 @@ close to Earth's orbit, making them subjects of scientific interest and observat
 
 ## Key Questions Explored
 - How many asteroids are classified as hazardous?
-- What is the average distance od near earth object?
-- Which orbit class has the highest average velocity?
+- What is the average distance of near earth object?
+- What is the average relative velocity of an Asteroid?
 - Is there any relation between estimated diameter and an asteroid being hazardous?
 - Does the realtive velocity km per hr decreases with the increase in estimated diameter?
 - What are the top ten potentially dangerous asteroids?
 - Compared the orbital eccentricity/inclination between hazardous and safe asteroids.
 
+## Results
+1. How many asteroids are classified as hazardous?
+   Answer: The number of safe asteroids is 303.
 
+2. What is the average distance of near earth object?
+   Answer:
+    Estimated Minimum Diameter in KM =	0.0030517923
+    Estimated Maximum Diameter in KM =	9.7732718421
+
+3. What is the average relative velocity of an Asteroid?
+   Answer:
+     Average relative velocity KM per hr = 50340.474035131185
+     Average relative velocity KM per sec = 13.90605221082407
+
+4. Is there any relation between estimated diameter and an asteroid being hazardous?
+   Answer:
+     Yes, the following plot shows the relation between
+     ![relation between diameter and velocity](Diameter Distribution.png)
+     
+           
 
 
 
