@@ -26,7 +26,7 @@ close to Earth's orbit, making them subjects of scientific interest and observat
 - Is there any relation between estimated diameter and an asteroid being hazardous?
 - Does the relative velocity km per hr decreases with the increase in estimated diameter?
 - What are the top ten potentially dangerous asteroids?
-- Compared the orbital eccentricity/inclination between hazardous and safe asteroids.
+-  Compared the orbital eccentricity/inclination between hazardous and safe asteroids.
 
 ## Results
 1. How many asteroids are classified as hazardous?
@@ -53,7 +53,12 @@ close to Earth's orbit, making them subjects of scientific interest and observat
      Yes, the increase in diameter decreases the relative velocity.
 
      ![Comparison](Comparing_diameter_with_velocity.png)
-     
+
+6. What are the top ten potentially dangerous asteroids?
+   Answer: I determind the top ten potentially dangerous asteroids by multiplying their estimated diameter and velocity and then dividing them by
+   miss distance. This analysis can be find in sql file given.
+
+7. 
            
 
 
