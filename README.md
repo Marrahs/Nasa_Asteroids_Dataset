@@ -1,6 +1,7 @@
 # Nasa_Asteroids_Dataset
 ## Objective
-
+Identified and analyzed potentially hazardous asteroids using NASA's Near-Earth Object database.
+Develop a risk assessment model to prioritize celestial objects based on size, velocity, and proximity to Earth.
 
 
 ## About this Dataset
