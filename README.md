@@ -32,7 +32,7 @@ close to Earth's orbit, making them subjects of scientific interest and observat
 ## Results
 1. How many asteroids are classified as hazardous?
    Answer: The number of safe asteroids is 303.
-
+   ```sql
    SELECT  COUNT(Hazardous) AS Safe_Asteroids
    FROM nasa_asteroids_data
    WHERE Hazardous = 'TRUE';
