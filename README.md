@@ -45,7 +45,7 @@ close to Earth's orbit, making them subjects of scientific interest and observat
     SELECT AVG(`Relative Velocity km per hr`)
     FROM nasa_asteroids_data;
 Average velocity KM per hr is 50340.474035131185.
-
+    ```sql
     SELECT  AVG(`Relative Velocity km per sec`)
     FROM nasa_asteroids_data;
 Average velocity KM per hr is 13.90605221082407.
