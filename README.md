@@ -50,9 +50,9 @@ close to Earth's orbit, making them subjects of scientific interest and observat
 
 5. Does the relative velocity km per hr decreases with the increase in estimated diameter?
    Answer:
-     Yes,
+     Yes, the increase in diameter decreases the relative velocity.
 
-     ![](Comparing_diameter_with_velocity.png)
+     ![Comparison](Comparing_diameter_with_velocity.png)
      
            
 
