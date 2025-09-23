@@ -24,7 +24,7 @@ close to Earth's orbit, making them subjects of scientific interest and observat
 - What is the average distance of near earth object?
 - What is the average relative velocity of an Asteroid?
 - Is there any relation between estimated diameter and an asteroid being hazardous?
-- Does the realtive velocity km per hr decreases with the increase in estimated diameter?
+- Does the relative velocity km per hr decreases with the increase in estimated diameter?
 - What are the top ten potentially dangerous asteroids?
 - Compared the orbital eccentricity/inclination between hazardous and safe asteroids.
 
@@ -46,7 +46,13 @@ close to Earth's orbit, making them subjects of scientific interest and observat
    Answer:
      Yes, the following plot shows that the higher the number of Estimated diameter results in an asteroid being more hazardous.
    
-     ![Diameter_Distribution](Distribution_of_Diameter.png)
+     ![](Distribution_of_Diameter.png)
+
+5. Does the relative velocity km per hr decreases with the increase in estimated diameter?
+   Answer:
+     Yes,
+
+     ![](Comparing_diameter_with_velocity.png)
      
            
 
