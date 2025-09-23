@@ -22,8 +22,8 @@ close to Earth's orbit, making them subjects of scientific interest and observat
 
 ## Key Questions Explored
 - How many asteroids are classified as hazardous?
-- What is the average distance of near earth object?
-- What is the average relative velocity of an Asteroid?
+- What is the average relative velocity of an asteroid?
+- What is the average Est Diameter of an Asteroid?
 - Is there any relation between estimated diameter and an asteroid being hazardous?
 - Does the relative velocity km per hr decreases with the increase in estimated diameter?
 - What are the top ten potentially dangerous asteroids?
@@ -38,15 +38,33 @@ close to Earth's orbit, making them subjects of scientific interest and observat
    WHERE Hazardous = 'TRUE';
 
 
-3. What is the average distance of near earth object?
+2. What is the average relative velocity of an asteroid?
    Answer:
-    Estimated Minimum Diameter in KM =	0.0030517923
-    Estimated Maximum Diameter in KM =	9.7732718421
 
-4. What is the average relative velocity of an Asteroid?
+    ```sql
+    SELECT AVG(`Relative Velocity km per hr`)
+    FROM nasa_asteroids_data;
+Average velocity KM per hr is 50340.474035131185.
+
+    SELECT  AVG(`Relative Velocity km per sec`)
+    FROM nasa_asteroids_data;
+Average velocity KM per hr is 13.90605221082407.
+    
+4. What is the average Est Diameter of an Asteroid?
    Answer:
-     Average relative velocity KM per hr = 50340.474035131185
-     Average relative velocity KM per sec = 13.90605221082407
+   ```sql
+    SELECT Name, `Est Dia in KM(min)` AS lowest_Diameter
+    FROM nasa_asteroids_data
+    ORDER BY lowest_Diameter ASC
+    LIMIT 1;
+The Estimated Diameter(min) is 0.0020162992.
+   ```sql
+    SELECT Name, `Est Dia in KM(max)` AS highest_Diameter
+    FROM nasa_asteroids_data
+    ORDER BY highest_Diameter DESC
+    LIMIT 1;
+   ```
+The Estimated Diameter(max) is 9.7732718421.
 
 5. Is there any relation between estimated diameter and an asteroid being hazardous?
    Answer:
@@ -54,18 +72,18 @@ close to Earth's orbit, making them subjects of scientific interest and observat
    
      ![](Distribution_of_Diameter.png)
 
-6. Does the relative velocity km per hr decreases with the increase in estimated diameter?
+7. Does the relative velocity km per hr decreases with the increase in estimated diameter?
    Answer:
      Yes, the increase in diameter decreases the relative velocity.
 
      ![Comparison](Comparing_diameter_with_velocity.png)
 
-7. What are the top ten potentially dangerous asteroids?
+8. What are the top ten potentially dangerous asteroids?
    Answer: I determind the top ten potentially dangerous asteroids by using the following equatuon in SQL.
 
              ( `Est Dia in KM(max)` * `Relative Velocity km per hr` ) / `Miss Dist.(kilometers)`
 
-8. Compared the orbital eccentricity between hazardous and safe asteroids.
+9. Compared the orbital eccentricity between hazardous and safe asteroids.
    Answer. According to the following bar plot the eccentricity can have an affect on the hazard status of an asteroid.
 
      ![Eccentricity and hazard status](Eccentricity.png)
