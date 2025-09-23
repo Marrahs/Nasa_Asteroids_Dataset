@@ -55,10 +55,16 @@ close to Earth's orbit, making them subjects of scientific interest and observat
      ![Comparison](Comparing_diameter_with_velocity.png)
 
 6. What are the top ten potentially dangerous asteroids?
-   Answer: I determind the top ten potentially dangerous asteroids by multiplying their estimated diameter and velocity and then dividing them by
-   miss distance. This analysis can be find in sql file given.
+   Answer: I determind the top ten potentially dangerous asteroids by using the following equatuon in SQL.
 
-7. 
+             ( `Est Dia in KM(max)` * `Relative Velocity km per hr` ) / `Miss Dist.(kilometers)`
+
+7. Compared the orbital eccentricity between hazardous and safe asteroids.
+   Answer. According to the following bar plot the eccentricity can have an affect on the hazard status of an asteroid.
+
+     ![Eccentricity and hazard status](Eccentricity.png)
+
+ 
            
 
 
