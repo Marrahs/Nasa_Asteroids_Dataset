@@ -44,7 +44,7 @@ close to Earth's orbit, making them subjects of scientific interest and observat
 
 4. Is there any relation between estimated diameter and an asteroid being hazardous?
    Answer:
-     Yes, the following plot shows that more Estimated diameter results in an asteroid being more hazardous
+     Yes, the following plot shows that more Estimated diameter results in an asteroid being more hazardous.
    
      ![Diameter_Distribution](Diameter_Distribution.png)
      
