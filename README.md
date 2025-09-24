@@ -31,7 +31,7 @@ close to Earth's orbit, making them subjects of scientific interest and observat
 
 ## Results
 1. How many asteroids are classified as hazardous?
-   Answer: The number of safe asteroids is 303.
+   - Answer: The number of safe asteroids is 303.
    ```sql
    SELECT  COUNT(Hazardous) AS Safe_Asteroids
    FROM nasa_asteroids_data
@@ -39,7 +39,7 @@ close to Earth's orbit, making them subjects of scientific interest and observat
 
 
 2. What is the average relative velocity of an asteroid?
-   Answer:
+   - Answer:
 
     ```sql
     SELECT AVG(`Relative Velocity km per hr`)
@@ -51,7 +51,7 @@ Average velocity KM per hr is 50340.474035131185.
 Average velocity KM per hr is 13.90605221082407.
     
 4. What is the average Est Diameter of an Asteroid?
-   Answer:
+   - Answer:
    ```sql
     SELECT Name, `Est Dia in KM(min)` AS lowest_Diameter
     FROM nasa_asteroids_data
@@ -67,19 +67,19 @@ The Estimated Diameter(min) is 0.0020162992.
 The Estimated Diameter(max) is 9.7732718421.
 
 5. Is there any relation between estimated diameter and an asteroid being hazardous?
-   Answer:
+   - Answer:
      Yes, the following plot shows that the higher the number of Estimated diameter results in an asteroid being more hazardous.
    
      ![](Distribution_of_Diameter.png)
 
 6. Does the relative velocity km per hr decreases with the increase in estimated diameter?
-   Answer:
+   - Answer:
      Yes, the increase in diameter decreases the relative velocity.
 
      ![Comparison](Comparing_diameter_with_velocity.png)
 
 7. What are the top ten potentially dangerous asteroids?
-   Answer: I determind the top ten potentially dangerous asteroids by using the following equatuon in SQL.
+   - Answer: I determind the top ten potentially dangerous asteroids by using the following equatuon in SQL.
             ```
              ( `Est Dia in KM(max)` * `Relative Velocity km per hr` ) / `Miss Dist.(kilometers)`
            ```
@@ -89,16 +89,16 @@ The Estimated Diameter(max) is 9.7732718421.
     According to the following bar plot the eccentricity can have an affect on the hazard status of an asteroid.
     Following are the top 5 hazardous Asteroids:
          ###High Risk Asteroids
-         1. 3082923   (Risk Score: 0.8361684490687855)
-         2. 3727339   (Risk Score: 0.8361684490687855)
-         3. 2495829   (Risk Score: 0.05495250003613771)
-         4. 3669253   (Risk Score: 0.039886229070416286)
-         5. 3632236   (Risk Score: 0.028379472876126015)
-         6. 3579078   (Risk Score: 0.027729040861794185)
-         7. 2365449   (Risk Score: 0.027729040861794185)
-         8. 2001685   (Risk Score: 0.02199838523911706)
-         9. 2002062   (Risk Score: 0.02199838523911706)
-         10. 2308242  (Risk Score: 0.019804939810913493)
+1. 3082923   (Risk Score: 0.8361684490687855)
+2. 3727339   (Risk Score: 0.8361684490687855)
+3. 2495829   (Risk Score: 0.05495250003613771)
+4. 3669253   (Risk Score: 0.039886229070416286)
+5. 3632236   (Risk Score: 0.028379472876126015)
+6. 3579078   (Risk Score: 0.027729040861794185)
+7. 2365449   (Risk Score: 0.027729040861794185)
+8. 2001685   (Risk Score: 0.02199838523911706)
+9. 2002062   (Risk Score: 0.02199838523911706)
+10. 2308242  (Risk Score: 0.019804939810913493)
           
 
      ![Eccentricity and hazard status](Eccentricity.png)
