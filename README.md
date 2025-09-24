@@ -72,18 +72,18 @@ The Estimated Diameter(max) is 9.7732718421.
    
      ![](Distribution_of_Diameter.png)
 
-7. Does the relative velocity km per hr decreases with the increase in estimated diameter?
+6. Does the relative velocity km per hr decreases with the increase in estimated diameter?
    Answer:
      Yes, the increase in diameter decreases the relative velocity.
 
      ![Comparison](Comparing_diameter_with_velocity.png)
 
-8. What are the top ten potentially dangerous asteroids?
+7. What are the top ten potentially dangerous asteroids?
    Answer: I determind the top ten potentially dangerous asteroids by using the following equatuon in SQL.
-
+            ```
              ( `Est Dia in KM(max)` * `Relative Velocity km per hr` ) / `Miss Dist.(kilometers)`
 
-9. Compared the orbital eccentricity between hazardous and safe asteroids.
+8. Compared the orbital eccentricity between hazardous and safe asteroids.
    Answer. According to the following bar plot the eccentricity can have an affect on the hazard status of an asteroid.
 
      ![Eccentricity and hazard status](Eccentricity.png)
