@@ -85,9 +85,24 @@ The Estimated Diameter(max) is 9.7732718421.
            ```
 
 9. Compared the orbital eccentricity between hazardous and safe asteroids.
-   Answer. According to the following bar plot the eccentricity can have an affect on the hazard status of an asteroid.
+   - Answer:
+    According to the following bar plot the eccentricity can have an affect on the hazard status of an asteroid.
+    Following are the top 5 hazardous Asteroids:
+         <p>
+         1.3082923   (Risk Score: 0.8361684490687855)
+         2.3727339   (Risk Score: 0.8361684490687855)
+         3.2495829   (Risk Score: 0.05495250003613771)
+         4.3669253   (Risk Score: 0.039886229070416286)
+         5.3632236   (Risk Score: 0.028379472876126015)
+         6.3579078   (Risk Score: 0.027729040861794185)
+         7.2365449   (Risk Score: 0.027729040861794185)
+         8.2001685   (Risk Score: 0.02199838523911706)
+         9.2002062   (Risk Score: 0.02199838523911706)
+         10.2308242  (Risk Score: 0.019804939810913493)
+          </p>
 
      ![Eccentricity and hazard status](Eccentricity.png)
+
 
  
            
