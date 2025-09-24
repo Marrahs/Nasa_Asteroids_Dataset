@@ -82,8 +82,9 @@ The Estimated Diameter(max) is 9.7732718421.
    Answer: I determind the top ten potentially dangerous asteroids by using the following equatuon in SQL.
             ```
              ( `Est Dia in KM(max)` * `Relative Velocity km per hr` ) / `Miss Dist.(kilometers)`
+           ```
 
-8. Compared the orbital eccentricity between hazardous and safe asteroids.
+9. Compared the orbital eccentricity between hazardous and safe asteroids.
    Answer. According to the following bar plot the eccentricity can have an affect on the hazard status of an asteroid.
 
      ![Eccentricity and hazard status](Eccentricity.png)
