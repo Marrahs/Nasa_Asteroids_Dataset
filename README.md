@@ -1,6 +1,6 @@
 # Nasa_Asteroids_Dataset
 ## Objective
-Identified and analyzed potentially hazardous asteroids using NASA's Near-Earth Object database.
+This dataset is very interesting and big. It consist of all of information about the NEOs. Identified and analyzed potentially hazardous asteroids using NASA's Near-Earth Object database.
 Develop a risk assessment model to prioritize celestial objects based on size, velocity, and proximity to Earth.
 
 
@@ -8,6 +8,7 @@ Develop a risk assessment model to prioritize celestial objects based on size, v
 I took this dataset from kaggle. Its about exploring the vast universe with the NASA Asteroids Dataset, a comprehensive collection of information
 on Near-Earth Objects (NEOs). These celestial bodies, including asteroids and other space debris, come
 close to Earth's orbit, making them subjects of scientific interest and observation.
+link : https://www.kaggle.com/datasets/waqasahmedbasharat/nasa-asteroids-dataset
 
 ## Tools used
 - SQL
